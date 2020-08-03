@@ -25,6 +25,9 @@ class Owner
       cat.owner == self
     end
   end
+  
+ebo = Owner.new
+ebo.cats
 
   def dogs 
     #same as cats method
